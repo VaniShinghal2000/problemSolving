@@ -77,6 +77,22 @@ public class BasicOne {
 
 
     //Remove duplicate characters from a string.
+    public static void Duplicates(){
+        String providedtring="vani shinghal";
+        int count=0;
+        String result="";
+        String withoutSpace=providedtring.replace(" ","");
+        for(int i=0;i<withoutSpace.length()-1;i++){
+            char ch=withoutSpace.charAt(i);
+            if(result.charAt(i)==withoutSpace.charAt(i)){
+
+            }
+
+        }
+        System.out.println(count);
+
+
+    }
 
 
 
@@ -86,6 +102,7 @@ public class BasicOne {
         IsPalindromeOrNot();
         SwapTwoNumbers();
         countVowelsAndConsonants();
+        Duplicates();
 
     }
 
