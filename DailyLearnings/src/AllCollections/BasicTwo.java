@@ -178,7 +178,7 @@ public class BasicTwo {
             }
 
         }
-        System.out.println(duplicates);
+        System.out.println("Duplicates are " +duplicates);
 
 
     }
